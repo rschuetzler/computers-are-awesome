@@ -1,0 +1,30 @@
+= Computers are Awesome
+Ryan Schuetzler <ryan@schuetzler.net>
+v0.0.1, 2018-05-03
+:doctype: book
+:source-highlighter: coderay
+:icons: font
+
+[preface]
+= Preface
+I think computers are awesome.
+I also think that most people don't realize just how awesome their computers can be.
+This book serves as a collection of tips, tricks, tutorials, and other things that show how awesome computers can be.
+
+The intended audience for this book is anyone who uses a computer.
+I try to write things in such a way that anyone--from a computer novice to an experienced user looking to harness just a little more of the power of their computer--can learn and understand.
+My plan is to grow and expand the book as I discover new ways that computers can be turned into the ultimate tool to make your life easier.
+
+= Preventing Disaster
+
+[partintro]
+--
+Even when you're careful, bad things can happen.
+In this section we talk about way to avoid disaster, and how to recover if disaster strikes.
+--
+
+:imagesdir: backups/images
+include::backups/intro-to-backups.adoc[leveloffset=+1]
+
+= Index
+include::glossary/glossary.adoc[leveloffset=+1]

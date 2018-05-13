@@ -1,0 +1,18 @@
+= US 1010 Topics
+== Backups
+* 3-2-1 rule
+* Google Drive/Dropbox vs. BackBlaze/others
+* Reasons why
+** Toy Story 2 almost lost
+** Skrillex album
+** Losing pictures, losing thesis
+== Security basics
+* Password managers and password reuse
+* Phishing
+** Social engineering - phone calls from "tech support"
+** Signs of attack: urgency, links, 
+* Information privacy - social media use
+** Doxxing and deanonymizing people/data
+== Word
+* Styles
+* Citation managers

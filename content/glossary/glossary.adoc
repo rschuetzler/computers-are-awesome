@@ -1,0 +1,5 @@
+= Glossary
+
+data center:: A building with dozens, hundreds, or thousands of servers
+
+server:: A computer designed to talk to other computers

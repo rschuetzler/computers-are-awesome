@@ -1,0 +1,21 @@
+= Email Security
+Ryan Schuetzler <rschuetzler@unomaha.edu>
+v0.1, 2018-05-11
+:icons: font
+ifndef::bound[:imagesdir: images]
+:xrefstyle: short
+:date: 2018-05-20
+:tags: security; email; phishing
+:slug: email-security
+:authors: Ryan Schuetzler
+:summary: 
+
+The most insecure part of any computer is the person using it.
+People are trusting, and believe
+
+== Identifying a phishing email
+
+// This needs an acronym
+* *Urgency*. If the scammers can make you think something is wrong, you might click a link or download a file without thinking.
+
+== Don't get phished
