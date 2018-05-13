@@ -8,6 +8,7 @@ ifndef::bound[:imagesdir: images]
 :tags: security; email; phishing
 :slug: email-security
 :authors: Ryan Schuetzler
+:status: draft
 :summary: 
 
 The most insecure part of any computer is the person using it.

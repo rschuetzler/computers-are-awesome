@@ -6,7 +6,9 @@ AUTHOR = 'Ryan Schuetzler'
 SITENAME = 'Computers are Awesome'
 SITEURL = ''
 
-PATH = 'content'
+OUTPUT_PATH = 'docs/'
+
+PATH = 'content/'
 
 TIMEZONE = 'America/Chicago'
 
