@@ -65,8 +65,12 @@ GEM
     jekyll-asciidoc (2.1.0)
       asciidoctor (>= 1.5.0)
       jekyll (>= 2.3.0)
+    jekyll-feed (0.9.3)
+      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
+    jekyll-seo-tag (2.4.0)
+      jekyll (~> 3.3)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
     kramdown (1.16.2)
@@ -77,6 +81,10 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
+    minima (2.5.0)
+      jekyll (~> 3.5)
+      jekyll-feed (~> 0.9)
+      jekyll-seo-tag (~> 2.1)
     namae (1.0.1)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
@@ -118,6 +126,10 @@ GEM
     treetop (1.5.3)
       polyglot (~> 0.3)
     ttfunk (1.5.1)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+    tzinfo-data (1.2018.5)
+      tzinfo (>= 1.0.0)
     unicode_utils (1.4.0)
 
 PLATFORMS
@@ -129,8 +141,11 @@ DEPENDENCIES
   asciidoctor-bibtex
   asciidoctor-pdf
   coderay
-  jekyll (~> 3.8)
+  jekyll (~> 3.8.1)
   jekyll-asciidoc
+  jekyll-feed (~> 0.6)
+  minima (~> 2.0)
+  tzinfo-data
   unicode_utils (~> 1.4)
 
 BUNDLED WITH

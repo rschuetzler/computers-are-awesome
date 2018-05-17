@@ -1,6 +1,7 @@
 = Computers are Awesome
 Ryan Schuetzler <ryan@schuetzler.net>
 v0.0.1, 2018-05-03
+:page-published: false
 :doctype: book
 :source-highlighter: coderay
 :icons: font

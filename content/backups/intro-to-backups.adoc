@@ -5,6 +5,9 @@ v0.1, 2018-05-02
 ifndef::bound[:imagesdir: images]
 :xrefstyle: short
 :date: 2018-05-02
+:page-layout: post
+:page-permalink: /intro-to-backups/
+:uri-asciidoctor: http://asciidoctor.org
 :tags: backup
 :slug: intro-to-backups
 :authors: Ryan Schuetzler
