@@ -4,6 +4,7 @@ gem 'asciidoctor'
 gem 'asciidoctor-pdf'
 gem 'asciidoctor-bibtex'
 gem 'coderay'
+gem 'rake-jekyll', '~> 1.1.0'
 
 # Added at 2018-05-03 20:56:04 -0500 by chief\ryan:
 gem "unicode_utils", "~> 1.4"
@@ -16,7 +17,6 @@ gem "minima", "~> 2.0"
 group :jekyll_plugins do
   gem 'jekyll-asciidoc'
   gem "jekyll-feed", "~> 0.6"
-  gem 'asciidoctor-bibtex'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
