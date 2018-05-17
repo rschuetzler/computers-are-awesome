@@ -12,6 +12,15 @@ Finally, run a named task using the `bundle exec rake` command:
 You can get a list of tasks using the following command:
  $ bundle exec rake -T
 =end
+require 'rake-jekyll'
+
+# This task builds the Jekyll site and deploys it to a remote Git repository.
+# It's preconfigured to be used with GitHub and Travis CI.
+# See http://github.com/jirutka/rake-jekyll for more options.
+Rake::Jekyll::GitDeployTask.new(:deploy) do |t|
+    t.committer = 'Ryan Schuetzler <ryan@schuetzler.net>'
+end
+
 MASTER_FILENAME='datacom-exercises.adoc'
 BUILD_DIR='build'
 autoload :FileUtils, 'fileutils'
