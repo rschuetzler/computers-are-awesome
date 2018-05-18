@@ -28,6 +28,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
+
+# Set up categories
+collections:
+  basics:
+    output: true
+    permalink: /:collection/:name
+
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -42,6 +50,7 @@ exclude:
   - Rakefile
   - refs.bib
   - .gitignore
+  - README.adoc
 #   - node_modules
 
 # Asciidoc configuration
@@ -53,3 +62,4 @@ asciidoctor:
     - idseparator=_
     - source-highlighter=coderay
     - icons=font
+    - imagesdir=/images
