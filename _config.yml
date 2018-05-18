@@ -35,7 +35,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - book.adoc
-  - vendor/
+  - [vendor]
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
