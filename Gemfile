@@ -15,7 +15,7 @@ gem "minima", "~> 2.0"
 group :jekyll_plugins do
   gem 'jekyll-asciidoc'
   gem "jekyll-feed", "~> 0.6"
-  gem 'asciidoctor-bibtex'
+  gem 'asciidoctor-bibtex' #Needs to be here to automatically run on jekyll adoc files
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
