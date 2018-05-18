@@ -35,12 +35,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - book.adoc
-  - [vendor]
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 #   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 # Asciidoc configuration
 asciidoc: {}
