@@ -2,6 +2,8 @@
 Ryan Schuetzler <ryan@schuetzler.net>
 v0.1 2018-05-02
 
+image::https://travis-ci.org/rschuetzler/make-your-computer-your-b.svg?branch=master[Build status]
+
 I firmly believe that computers are awesome.
 I also think that most people don't realize just how awesome their computers can be.
 This book serves as a collection of tips, tricks, tutorials, and other things that show how awesome computers can be.
