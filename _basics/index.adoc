@@ -1,0 +1,6 @@
+= Basics
+:page-liquid:
+
+{% for item in site.basics %}
+* link:{{ item.url }}[{{ item.title }}]
+{% endfor %}
