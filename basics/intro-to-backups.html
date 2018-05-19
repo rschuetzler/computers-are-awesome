@@ -10,11 +10,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Things everybody who uses a computer should know." />
 <meta property="og:description" content="Things everybody who uses a computer should know." />
-<link rel="canonical" href="/intro-to-backups/" />
-<meta property="og:url" content="/intro-to-backups/" />
+<link rel="canonical" href="/basics/intro-to-backups" />
+<meta property="og:url" content="/basics/intro-to-backups" />
 <meta property="og:site_name" content="Computers are Awesome" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-05-19T14:18:35+00:00" />
 <script type="application/ld+json">
-{"description":"Things everybody who uses a computer should know.","headline":"Personal Backups","@type":"WebPage","url":"/intro-to-backups/","author":{"@type":"Person","name":"Ryan Schuetzler"},"@context":"http://schema.org"}</script>
+{"description":"Things everybody who uses a computer should know.","@type":"BlogPosting","url":"/basics/intro-to-backups","headline":"Personal Backups","dateModified":"2018-05-19T14:18:35+00:00","datePublished":"2018-05-19T14:18:35+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"/basics/intro-to-backups"},"author":{"@type":"Person","name":"Ryan Schuetzler"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Computers are Awesome" /></head>
 <body><header class="site-header" role="banner">
@@ -29,7 +31,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/README.html">Computers are Awesome</a><a class="page-link" href="/content/glossary/glossary.html">Glossary</a><a class="page-link" href="/intro-to-backups/">Personal Backups</a><a class="page-link" href="/content/security/passwords.html">Passwords</a><a class="page-link" href="/content/security/phishing.html">Email Security</a></div>
+        <div class="trigger"><a class="page-link" href="/content/glossary/glossary.html">Glossary</a><a class="page-link" href="/">Computers Are Awesome</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -79,7 +81,7 @@ Below are a few examples of times when backups could have saved the day:</p>
 <p>A graduate student in Calgary, Alberta <a href="https://calgary.ctvnews.ca/stolen-laptop-contains-man-s-dreams-1.546352">had his laptop and backup hard drive stolen from his car, losing years of work toward a dissertation</a>.</p>
 </li>
 <li>
-<p><a href="https://www.reddit.com/r/tifu/comments/8fkanp/tifu_by_leaving_my_phone_in_my_pocket/">A man&#8217;s phone died and he lost three years of photos of his children and wife</a> cite:[RedditPhoneCrash].</p>
+<p><a href="https://www.reddit.com/r/tifu/comments/8fkanp/tifu_by_leaving_my_phone_in_my_pocket/">A man&#8217;s phone died and he lost three years of photos of his children and wife</a> [<a href="#RedditPhoneCrash">1</a>].</p>
 </li>
 </ul>
 </div>
@@ -139,11 +141,11 @@ Hard drives in a computer can fail if the computer is bounced around too much du
 </div>
 <div class="paragraph">
 <p>The earliest forms of the 3-2-1 rule recommended storing data on hard drives and tape drives.
-While tape drives are still used in corporate settings (Sony and IBM recently developed a drive that can hold 330 terabytes cite:[tapedrive2017]), you&#8217;re probably not going to need one for your personal backup.</p>
+While tape drives are still used in corporate settings (Sony and IBM recently developed a drive that can hold 330 terabytes [<a href="#tapedrive2017">2</a>]), you&#8217;re probably not going to need one for your personal backup.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="images/tape.jpg" alt="Tape Drive" width="300">
+<img src="/images/tape.jpg" alt="Tape Drive" width="300">
 </div>
 <div class="title">Figure 1. Data tapes and a tape drive statement.<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></div>
 </div>
@@ -184,8 +186,8 @@ To protect yourself from these and other potential disasters, it&#8217;s helpful
 <div class="paragraph">
 <p>In the olden days, an offsite backup meant making a local copy of your data and physically mailing or delivering it to a separate location.
 Business backups still might work this way, because sometimes it is faster to mail a large hard drive than to send lots of data over the Internet.
-Amazon will even mail you a huge bundle of hard drives to fill up with data and mail back to put into Amazon&#8217;s data center cite:[AmazonSnowball].
-If your needs are large enough, you can order a full truck to send up to 100 petabytes (that&#8217;s 100,000 terabytes, or 100 million gigabytes) at a time cite:[AmazonSnowmobile].</p>
+Amazon will even mail you a huge bundle of hard drives to fill up with data and mail back to put into Amazon&#8217;s data center [<a href="#AmazonSnowball">3</a>].
+If your needs are large enough, you can order a full truck to send up to 100 petabytes (that&#8217;s 100,000 terabytes, or 100 million gigabytes) at a time [<a href="#AmazonSnowmobile">4</a>].</p>
 </div>
 <div class="quoteblock">
 <blockquote>
@@ -456,8 +458,21 @@ I haven&#8217;t used them all, and no nothing about their quality, so do some re
 <div class="sect1">
 <h2 id="references">References</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>bibliography::[]</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a id="RedditPhoneCrash"></a>/u/Ryuujin09, “TIFU by leaving my phone in my pocket,” <em>Reddit</em>, Apr. 2018.</p>
+</li>
+<li>
+<p><a id="tapedrive2017"></a>S. Anthony, “IBM and Sony cram up to 330 terabytes into tiny tape cartridge,” <em>Ars Technica</em>, Aug. 2017.</p>
+</li>
+<li>
+<p><a id="AmazonSnowball"></a>“AWS Snowball: Move petabyte-scale data sets.” Amazon Web Services, 2018.</p>
+</li>
+<li>
+<p><a id="AmazonSnowmobile"></a>“AWS Snowmobile: Move exabyte-scale data sets.” Amazon Web Services, 2018.</p>
+</li>
+</ol>
 </div>
 </div>
 </div>
@@ -467,7 +482,7 @@ I haven&#8217;t used them all, and no nothing about their quality, so do some re
 <a href="#_footnoteref_1">1</a>. Image credit: Robert Jacek Tomczak, licensed under CC BY-SA 3.0
 </div>
 </div>
-  </div><a class="u-url" href="/intro-to-backups/" hidden></a>
+  </div><a class="u-url" href="/basics/intro-to-backups" hidden></a>
 </article>
 
       </div>
@@ -481,7 +496,7 @@ I haven&#8217;t used them all, and no nothing about their quality, so do some re
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li class="p-name">Computers are Awesome</li><li><a class="u-email" href="mailto:ryan@schuetzler.net">ryan@schuetzler.net</a></li></ul>
+          <li class="p-name">Computers are Awesome</li><li><a class="u-email" href="mailto:computers@schuetzler.net">computers@schuetzler.net</a></li></ul>
       </div>
 
       <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/rschuetzler"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">rschuetzler</span></a></li><li><a href="https://www.twitter.com/rschuetzler"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">rschuetzler</span></a></li></ul>
