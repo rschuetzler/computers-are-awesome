@@ -2,7 +2,7 @@
 Ryan Schuetzler <ryan@schuetzler.net>
 v0.1 2018-05-02
 
-image::https://travis-ci.org/rschuetzler/make-your-computer-your-b.svg?branch=master[Build status]
+image:https://travis-ci.org/rschuetzler/computers-are-awesome.svg?branch=master["Build Status", link="https://travis-ci.org/rschuetzler/computers-are-awesome"]
 
 I firmly believe that computers are awesome.
 I also think that most people don't realize just how awesome their computers can be.
