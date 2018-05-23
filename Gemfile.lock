@@ -134,7 +134,6 @@ GEM
     tzinfo-data (1.2018.5)
       tzinfo (>= 1.0.0)
     unicode_utils (1.4.0)
-    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -152,7 +151,6 @@ DEPENDENCIES
   rake-jekyll (~> 1.1.0)
   tzinfo-data
   unicode_utils (~> 1.4)
-  wdm (~> 0.1.0)
 
 BUNDLED WITH
    1.16.2
