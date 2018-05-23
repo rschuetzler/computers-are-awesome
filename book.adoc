@@ -25,7 +25,7 @@ In this section we talk about way to avoid disaster, and how to recover if disas
 --
 
 :imagesdir: backups/images
-include::backups/intro-to-backups.adoc[leveloffset=+1]
+include::_basics/intro-to-backups.adoc[leveloffset=+1]
 
 = Index
-include::glossary/glossary.adoc[leveloffset=+1]
+include::content/glossary.adoc[leveloffset=+1]
