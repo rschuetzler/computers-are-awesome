@@ -21,7 +21,7 @@ Rake::Jekyll::GitDeployTask.new(:deploy) do |t|
     t.committer = 'Ryan Schuetzler <ryan@schuetzler.net>'
 end
 
-MASTER_FILENAME='datacom-exercises.adoc'
+MASTER_FILENAME='book.adoc'
 BUILD_DIR='build'
 autoload :FileUtils, 'fileutils'
 
@@ -47,6 +47,7 @@ task :pdf do
     backend: 'pdf',
     to_dir: BUILD_DIR,
     mkdirs: true
+
 end
 
 desc 'Build all formats'

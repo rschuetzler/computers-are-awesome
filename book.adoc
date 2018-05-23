@@ -5,6 +5,7 @@ v0.0.1, 2018-05-03
 :doctype: book
 :source-highlighter: coderay
 :icons: font
+:imagesdir: images
 
 [preface]
 = Preface
@@ -24,7 +25,6 @@ Even when you're careful, bad things can happen.
 In this section we talk about way to avoid disaster, and how to recover if disaster strikes.
 --
 
-:imagesdir: backups/images
 include::_basics/intro-to-backups.adoc[leveloffset=+1]
 
 = Index
