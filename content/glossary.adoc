@@ -1,5 +1,9 @@
 = Glossary
 
+credential stuffing:: A vulnerability where your password on one hacked site is used to log into a different site where you reused the password
+
 data center:: A building with dozens, hundreds, or thousands of servers
+
+password manager:: Software that stores passwords so you don't have to remember them all
 
 server:: A computer designed to talk to other computers
