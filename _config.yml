@@ -51,6 +51,7 @@ exclude:
   - refs.bib
   - .gitignore
   - README.adoc
+  - "*-theme.yml"
 #   - node_modules
 
 # Asciidoc configuration
