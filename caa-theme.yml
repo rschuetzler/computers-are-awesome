@@ -216,7 +216,7 @@ outline_list:
   indent: $horizontal_rhythm * 1.5
   #marker_font_color: 404040
   # NOTE outline_list_item_spacing applies to list items that do not have complex content
-  item_spacing: $vertical_rhythm / 2
+  item_spacing: $vertical_rhythm / 4
 table:
   background_color: $page_background_color
   #head_background_color: <hex value>
