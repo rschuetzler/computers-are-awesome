@@ -2,7 +2,7 @@
 Ryan Schuetzler <rschuetzler@unomaha.edu>
 v0.1, 2018-05-02
 :icons: font
-ifndef::bound[:imagesdir: images]
+ifndef::bound[:imagesdir: ../images]
 :xrefstyle: short
 :date: 2018-05-02
 :page-layout: post
