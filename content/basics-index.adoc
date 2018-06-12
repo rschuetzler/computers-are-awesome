@@ -1,5 +1,6 @@
 = Basics
 :page-liquid:
+:page-permalink: /basics/index.html
 
 {% for item in site.basics %}
 * link:{{ item.url }}[{{ item.title }}]

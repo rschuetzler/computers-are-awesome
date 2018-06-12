@@ -35,6 +35,13 @@ collections:
     output: true
     permalink: /:collection/:name
 
+defaults:
+  - scope:
+      path: ""
+      type: "basics"
+    values:
+      layout: post
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
