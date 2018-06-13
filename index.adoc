@@ -9,7 +9,7 @@ The goal of this site is to provide a resource of the stuff everybody should kno
 {% for post in site.basics limit:5 %}
 == {{ post.title }}
 
-{{ post.excerpt }}
+{{ post.excerpt | asciidocify }}
 
 link:{{ post.url }}[Read more...]
 {% endfor %}
