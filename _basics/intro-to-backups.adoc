@@ -18,6 +18,8 @@ Many people have other personal files as well: photos, tax records, valuable mes
 These files are too important to be stored only in one place.
 To protect them from disaster and catastrophe, backups are critical.
 
+// more
+
 Too often devices fail at the worst possible time.
 A hard drive crashes the last week of the semester and a month-long graduate research project is lost.
 A phone is stolen, and precious photos of young children are lost forever.
