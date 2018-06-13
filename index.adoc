@@ -8,6 +8,7 @@ The goal of this site is to provide a resource of the stuff everybody should kno
 
 {% for post in site.basics limit:5 %}
 == {{ post.title }}
+[.small]#{{ post.date || date_to_string }}#
 
 {{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '<div class="paragraph">' | remove: '</div>' }}
 
