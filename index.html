@@ -54,6 +54,444 @@ The goal of this site is to provide a resource of the stuff everybody should kno
 <h2 id="personal_backups">Personal Backups</h2>
 <div class="sectionbody">
 <div class="paragraph">
+<p>&lt;div id="preamble"&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;People today store more of their valuable data digitally than ever before.
+For school, assignments, research papers, lab data, class notes, and many other important files are stored on computers.
+Many people have other personal files as well: photos, tax records, valuable messages, or other things.
+These files are too important to be stored only in one place.
+To protect them from disaster and catastrophe, backups are critical.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Too often devices fail at the worst possible time.
+A hard drive crashes the last week of the semester and a month-long graduate research project is lost.
+A phone is stolen, and precious photos of young children are lost forever.
+A laptop is dropped on the ground, and several years of assignments, notes, and a portfolio are lost.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Bad things can happen to anyone at any time.
+Data loss can happen to individuals or to large companies, and having a good backup strategy is just as important in both cases.
+Below are a few examples of times when backups could have saved the day:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://thenextweb.com/media/2012/05/21/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good/"&gt;Pixar&#8217;s Toy Story 2 was accidentally deleted from their servers and almost lost&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DJ Skrillex &lt;a href="https://www.altpress.com/news/entry/skrillex_sonny_moore_has_laptops_stolen_containing_new_album/"&gt;had a laptop stolen that contained the only copy of his yet-to-be-released album&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A rapper &lt;a href="http://newsfeed.time.com/2013/01/05/rapper-ryan-leslie-ordered-to-pay-1-2-million-reward-for-lost-laptop/"&gt;paid a $1.2 million reward for a lost laptop&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A graduate student in Calgary, Alberta &lt;a href="https://calgary.ctvnews.ca/stolen-laptop-contains-man-s-dreams-1.546352"&gt;had his laptop and backup hard drive stolen from his car, losing years of work toward a dissertation&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.reddit.com/r/tifu/comments/8fkanp/tifu_by_leaving_my_phone_in_my_pocket/"&gt;A man&#8217;s phone died and he lost three years of photos of his children and wife&lt;/a&gt; [&lt;a href="#RedditPhoneCrash"&gt;1&lt;/a&gt;].&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Each of these incidents, and many more, could have been prevented if the unfortunate victims had a proper backup of their valuable files.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="what_you_will_learn"&gt;What you will learn&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The 3-2-1 rule for backups&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The difference between sync and backup&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Options for your own personal backups&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="the_3_2_1_rule"&gt;The 3-2-1 Rule&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;A good backup strategy is an example of &lt;em&gt;defense in depth&lt;/em&gt;.
+There is no place you can put your data that it will be protected from all types of things that could go wrong.
+Because of this issue, computer experts&#8212;&#8203;including the
+&lt;a href="https://www.us-cert.gov/sites/default/files/publications/data_backup_options.pdf"&gt;United States Computer Emergency Readiness Team&lt;/a&gt;--have long advocated for the 3-2-1 backup rule.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The 3-2-1 rule of backups means having 3 copies of your data (one primary copy, and two backups) stored on 2 different media (e.g., hard drive, USB drive, or tape drive) with 1 copy stored offsite.
+Below we talk about the reasons for each of these rules, with ideas for how to implement them.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="3_copies"&gt;3 Copies&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;One backup is better than no backup, but there is still the chance that both backups could fail at once.
+If your only backup fails, or &lt;a href="https://calgary.ctvnews.ca/stolen-laptop-contains-man-s-dreams-1.546352"&gt;is stolen along with your main copy&lt;/a&gt;, then you&#8217;re back to square one with no backup at all.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Of course, even with three backups, you might still run into some circumstance where all copies fail at once.
+For the most critical of your files, you might want to go beyond 3-2-1, but if your current backup strategy is "I don&#8217;t have one," three is a great place to start.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="2_media"&gt;2 Media&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The two-media rule of 3-2-1 refers to what types of device your data are stored on.
+The reasoning behind the different media is protection against various types of failure.
+Hard drives in a computer can fail if the computer is bounced around too much during use, but a solid state drive like an SD card or USB Flash drive can survive being jolted a bit.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The earliest forms of the 3-2-1 rule recommended storing data on hard drives and tape drives.
+While tape drives are still used in corporate settings (Sony and IBM recently developed a drive that can hold 330 terabytes [&lt;a href="#tapedrive2017"&gt;2&lt;/a&gt;]), you&#8217;re probably not going to need one for your personal backup.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="imageblock"&gt;
+&lt;div class="content"&gt;
+&lt;img src="/images/tape.jpg" alt="Tape Drive" width="300"&gt;
+&lt;/div&gt;
+&lt;div class="title"&gt;Figure 1. Data tapes and a tape drive statement.&lt;sup class="footnote"&gt;[&lt;a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote."&gt;1&lt;/a&gt;]&lt;/sup&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;What the two-media rule means now for your personal backup is that you&#8217;ll want to have two local copies of your data on different drives.
+The most common form is to regularly copy important files to a USB Flash drive or removable hard drive.
+That way you&#8217;ll have an extra local copy in case something happens to your computer.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Both Windows and macOS include utilities for setting up a local backup.
+On a Mac, this utility is called Time Machine.
+Time Machine creates a backup of any files you tell it to back up (by default it backs up all of your files, including videos, photos, and documents).
+It will automatically back up your files any time the backup disk is connected.
+On Windows, you can set up your backup under your Update &amp; Security settings in the control panel.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonitionblock important"&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class="icon"&gt;
+&lt;i class="fa icon-important" title="Important"&gt;&lt;/i&gt;
+&lt;/td&gt;
+&lt;td class="content"&gt;
+It&#8217;s important to remember to &lt;em&gt;regularly&lt;/em&gt; back up your files to your local backup drive. Keep in mind that if you only do this backup once a month, you could lose up to a month of work if the main drive fails at the wrong time.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="1_offsite"&gt;1 Offsite&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The final step of the 3-2-1 rule is to have at least one backup copy that is stored in a separate geographical location&#8212;&#8203;an &lt;em&gt;offsite backup&lt;/em&gt;.
+The offsite backup protects you in case your computer and local backup get damaged, stolen, or destroyed.
+If your only backup is a USB flash drive at your house, you&#8217;re out of luck if disaster strikes and your house burns down.
+Similarly, if someone breaks into your house and steals both local copies, your backup would not be much use.
+To protect yourself from these and other potential disasters, it&#8217;s helpful to have an offsite backup stored in another city, state, or even country (we&#8217;re not quite advanced enough to put backup personal drives in space, but it&#8217;s getting there).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;In the olden days, an offsite backup meant making a local copy of your data and physically mailing or delivering it to a separate location.
+Business backups still might work this way, because sometimes it is faster to mail a large hard drive than to send lots of data over the Internet.
+Amazon will even mail you a huge bundle of hard drives to fill up with data and mail back to put into Amazon&#8217;s data center [&lt;a href="#AmazonSnowball"&gt;3&lt;/a&gt;].
+If your needs are large enough, you can order a full truck to send up to 100 petabytes (that&#8217;s 100,000 terabytes, or 100 million gigabytes) at a time [&lt;a href="#AmazonSnowmobile"&gt;4&lt;/a&gt;].&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="quoteblock"&gt;
+&lt;blockquote&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;div class="attribution"&gt;
+&#8212; Andrew Tanenbaum&lt;br&gt;
+&lt;cite&gt;Computer Networks 3rd ed.&lt;/cite&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For a personal offsite backup, though, most people can use the Internet.
+Several companies offer online backup services that will put a copy of any of your files on their servers where only you can access them.
+Your files will be stored and protected in a data center far from your home, so if disaster strikes you&#8217;ll have a copy of everything important that you can restore from once you get a computer up and running again.
+These online backup services typically fall into one of two categories: backup and sync.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="sync_vs_backup"&gt;Sync vs. Backup&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Two different types of service can serve as an offsite backup, depending on your needs, budget, and how important your files are.
+These two types of service are Sync and Backup.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Sync services are designed to synchronize files between computers.
+It could be that you need to work on your files at home or on your work computer, or that you need to share files with other people to collaborate on something.
+The most popular sync services are Google Drive and Dropbox.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Sync services work by creating a folder on your computer.
+Anything that is inside the folder is sent to the sync folder on a server, and all computers with access to the folder get updated whenever a change is made.
+The reason a sync service is not a true backup is because &lt;em&gt;every&lt;/em&gt; change, including deleted files, is synced between computers.
+That means any time a file is deleted from one of the computers, it will be deleted from all of them.
+Some sync services provide the ability to "undelete" files for a certain period of time (a few days or up to 30, depending on the service).
+As long as you notice the files missing in time, you may be able to recover them.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;A backup service is able to back up any file on your computer, no matter where it is stored.
+When configuring backup software, you tell it where to find the files, and what types of files to back up, and the backup begins.
+During the initial backup, all of the files will be uploaded to the backup servers.
+The initial backup can take a &lt;em&gt;long&lt;/em&gt; time (possibly several days, depending on how much data you are sending).
+After the initial backup, only files that have changed are uploaded, so later backups will be much faster than the initial one.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For a summary of the differences between sync and backup services, see &lt;a href="#tbl-syncbackup"&gt;Table 1&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;table id="tbl-syncbackup" class="tableblock frame-all grid-all stretch"&gt;
+&lt;caption class="title"&gt;Table 1. Comparison of Sync and Backup Services&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col style="width: 33.3333%;"&gt;
+&lt;col style="width: 33.3333%;"&gt;
+&lt;col style="width: 33.3334%;"&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class="tableblock halign-left valign-top"&gt;Function&lt;/th&gt;
+&lt;th class="tableblock halign-left valign-top"&gt;Sync&lt;/th&gt;
+&lt;th class="tableblock halign-left valign-top"&gt;Backup&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Focus&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Keeping files in sync between different computers&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Providing a reliable backup of your files&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Deleted files&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Files deleted on one computer are deleted from all computers&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Deleted files remain backed up on the server&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Location&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;All files stored in one folder&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Files can be anywhere on the computer&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Storage&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Typically around 1 TB&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Often "unlimited," though how unlimited that actually is varies&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Access&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Available through computer software clients, mobile apps, or a website&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Limited file access. Download files for recovery by requesting from the website.&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="admonitionblock tip"&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class="icon"&gt;
+&lt;i class="fa icon-tip" title="Tip"&gt;&lt;/i&gt;
+&lt;/td&gt;
+&lt;td class="content"&gt;
+Sync and online backup services only work when the computer is connected to the Internet. If you make changes to a file while not connected, it will only be backed up once the computer connects again.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="personal_backup_plan"&gt;Personal Backup Plan&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Now that you understand the value of backups, it&#8217;s time to make a personal backup plan.
+When you&#8217;re making your personal backup plan, you have to consider several important points:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="olist arabic"&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;
+&lt;p&gt;Where is the data stored that you would like to back up? Fifteen years ago this was easy: your computer. Now you might have important files on your computer, your phone, a tablet, or possibly other places.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How frequent do backups need to be? Would you be okay if you lost a day&#8217;s work because you hadn&#8217;t backed up? An hour? A week? Think about how much it would cost&#8212;&#8203;in terms of time and money&#8212;&#8203;to redo your work if your computer failed at the wrong time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How critical is the data, and how much is it worth to protect? Some types of data are more valuable than others.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;As an example, I&#8217;ll use my own personal situation.
+You many not need all the components I have, or you may decide that some of your data needs more protection.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="computer"&gt;Computer&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Most of my files for work and personal use are stored inside of Dropbox (a sync provider).
+I use the free plan, where I have built up to having 25 gigabytes of free storage.
+That&#8217;s enough for me to store most of my day-to-day work, but I can&#8217;t keep all of my files in there.
+Storing my most commonly used files in Dropbox allows me to have them on my work and home computer when I need them, because I work on anything, anytime, anywhere.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;On my home computer, I also have an external hard drive plugged in all the time for backups.
+Daily backups from my computer to the hard drive provide a level of redundancy if my computer&#8217;s hard drive fails.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Since I&#8217;m not able to store everything in Dropbox, and I want to be able to recover anything, even if it gets deleted (I have kids who sometimes like to randomly press buttons on my keyboard), I pay monthly for an online backup.
+Currently I use Crashplan, but their consumer plan is ending so I&#8217;ll need to switch to somebody else soon.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;And that gets me to 3-2-1 on my computer.
+You might even call it 3-2-2, since I have both Dropbox and a real backup for my most important files.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="mobile"&gt;Mobile&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;I also have a backup plan for my phone.
+I don&#8217;t do a lot of work from my phone, but I want to make sure that I don&#8217;t lose any valuable pictures if something happens to it.
+I use Dropbox Camera Upload and Google Photos to make redundant copies of my pictures as soon as I take them (as long as I&#8217;m connected to WiFi).
+Dropbox puts them into a folder in my Dropbox that is then synced to all my computers.
+Then my backup service backs it up yet another time, so I have redundant copies of all my pictures and videos of my kids.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="service_providers"&gt;Service Providers&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Below is a list of service providers you may want to investigate depending on your needs.
+There are many others, and the ones included in this list are here only because I&#8217;ve heard of them.
+I haven&#8217;t used them all, and no nothing about their quality, so do some research before you pick a backup service to rely on.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Local&lt;/p&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Flash Drive&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;USB Hard drive&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Apple Airport time capsule&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Network Attached Storage drive&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Online Backup&lt;/p&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Backblaze&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Carbonite&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;iDrive&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sync&lt;/p&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Box&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dropbox&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Google Drive&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="reflection_questions"&gt;Reflection questions&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="olist arabic"&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;
+&lt;p&gt;Why is it important to have more than one backup copy of your files?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Describe a situation where you would need to restore from an offsite backup.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="activities"&gt;Activities&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="olist arabic"&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;
+&lt;p&gt;Write down your personal backup plan. How will you follow the 3-2-1 rule?&lt;/p&gt;
+&lt;div class="olist loweralpha"&gt;
+&lt;ol class="loweralpha" type="a"&gt;
+&lt;li&gt;
+&lt;p&gt;Make a list of what electronic data you need to protect, including where it is stored.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Describe how frequently backups need to happen to protect this data. You might have some data that needs to be backed up more frequently than others. Think about how much it would cost to replace the data (money, time, etc.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make a backup plan that follows the 3-2-1 rule. Include specifics of how much it will cost to back up appropriately. Decide if you will use a sync or a backup service, or both. Explain your choices.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="references"&gt;References&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="olist arabic"&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a id="RedditPhoneCrash"&gt;&lt;/a&gt;/u/Ryuujin09, “TIFU by leaving my phone in my pocket,” &lt;em&gt;Reddit&lt;/em&gt;, Apr. 2018.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a id="tapedrive2017"&gt;&lt;/a&gt;S. Anthony, “IBM and Sony cram up to 330 terabytes into tiny tape cartridge,” &lt;em&gt;Ars Technica&lt;/em&gt;, Aug. 2017.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a id="AmazonSnowball"&gt;&lt;/a&gt;“AWS Snowball: Move petabyte-scale data sets.” Amazon Web Services, 2018.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a id="AmazonSnowmobile"&gt;&lt;/a&gt;“AWS Snowmobile: Move exabyte-scale data sets.” Amazon Web Services, 2018.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="footnotes"&gt;
+&lt;hr&gt;
+&lt;div class="footnote" id="_footnotedef_1"&gt;
+&lt;a href="#_footnoteref_1"&gt;1&lt;/a&gt;. Image credit: Robert Jacek Tomczak, licensed under CC BY-SA 3.0
+&lt;/div&gt;
+&lt;/div&gt;</p>
+</div>
+<div class="paragraph">
 <p><a href="/basics/intro-to-backups">Read more&#8230;&#8203;</a></p>
 </div>
 </div>
@@ -61,6 +499,16 @@ The goal of this site is to provide a resource of the stuff everybody should kno
 <div class="sect1">
 <h2 id="passwords">Passwords</h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>&lt;div class="paragraph"&gt;
+&lt;p&gt;Your passwords are bad.
+But you&#8217;re not alone.
+Almost everybody&#8217;s passwords are bad [&lt;a href="#BadPasswordsTroyHunt"&gt;1&lt;/a&gt;].
+But don&#8217;t feel too bad.
+Your passwords are bad because everything you&#8217;ve been taught about passwords is probably wrong.
+Let&#8217;s fix that.&lt;/p&gt;
+&lt;/div&gt;</p>
+</div>
 <div class="paragraph">
 <p><a href="/basics/passwords">Read more&#8230;&#8203;</a></p>
 </div>
