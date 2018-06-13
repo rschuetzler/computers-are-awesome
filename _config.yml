@@ -41,6 +41,7 @@ defaults:
       type: "basics"
     values:
       layout: post
+      feed: true
 
 
 # Exclude from processing.
