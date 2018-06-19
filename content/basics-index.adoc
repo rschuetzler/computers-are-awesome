@@ -2,6 +2,6 @@
 :page-liquid:
 :page-permalink: /basics/index.html
 
-{% for item in site.basics %}
+{% for item in site.posts %}
 * link:{{ item.url }}[{{ item.title }}]
 {% endfor %}
