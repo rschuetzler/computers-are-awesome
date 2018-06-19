@@ -41,7 +41,9 @@ defaults:
       type: "basics"
     values:
       layout: post
+      feed: true
 
+excerpt_separator: // more
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

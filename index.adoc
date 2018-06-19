@@ -8,8 +8,9 @@ The goal of this site is to provide a resource of the stuff everybody should kno
 
 {% for post in site.basics limit:5 %}
 == {{ post.title }}
+[.small]#{{ post.date | date: "%Y-%m-%d" }}#
 
-{{ post.excerpt | asciidocify: 'inline' }}
+{{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '<div class="paragraph">' | remove: '</div>' }}
 
 link:{{ post.url }}[Read more...]
 {% endfor %}

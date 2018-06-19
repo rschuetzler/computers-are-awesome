@@ -4,7 +4,7 @@ v0.1, 2018-05-02
 :icons: font
 ifndef::bound[:imagesdir: ../images]
 :xrefstyle: short
-:date: 2018-05-02
+:page-date: 2018-05-02
 :page-layout: post
 :uri-asciidoctor: http://asciidoctor.org
 :tags: backup
@@ -17,6 +17,8 @@ For school, assignments, research papers, lab data, class notes, and many other 
 Many people have other personal files as well: photos, tax records, valuable messages, or other things.
 These files are too important to be stored only in one place.
 To protect them from disaster and catastrophe, backups are critical.
+
+// more
 
 Too often devices fail at the worst possible time.
 A hard drive crashes the last week of the semester and a month-long graduate research project is lost.
