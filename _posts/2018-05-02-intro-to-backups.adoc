@@ -4,7 +4,6 @@ v0.1, 2018-05-02
 :icons: font
 ifndef::bound[:imagesdir: ../images]
 :xrefstyle: short
-:page-date: 2018-05-02
 :page-layout: post
 :uri-asciidoctor: http://asciidoctor.org
 :tags: backup
