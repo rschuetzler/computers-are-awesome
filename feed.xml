@@ -17,7 +17,6 @@ layout: null
         {% assign documents = site.documents | where: 'feed', true | sort: 'date' | reverse %}
 		<lastBuildDate>{% for post in documents limit:1 %}{{ post.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
 
-        {% for document in documents limit:10 %}
 		{% assign feed_items = site.feed_items | default: 10 %}
 		{% for post in documents limit:feed_items %}
 			<item>
