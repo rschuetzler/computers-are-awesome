@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-06-20T19:48:09+00:00</updated><id>/</id><title type="html">Computers are Awesome</title><subtitle>Things everybody who uses a computer should know.</subtitle></feed>
+
+
+
+  <entry>
+    <title>Passwords</title>
+    <link href="/basics/passwords" />
+    <published>2018-05-11T00:00:00Z</published>
+    <updated>2018-05-11T00:00:00Z</updated>
+    <id>/basics/passwords</id>
+    <content type="html">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Your passwords are bad.
+But you&amp;#8217;re not alone.
+But don&amp;#8217;t feel too bad.
+Your passwords are bad because everything you&amp;#8217;ve been taught about passwords is probably wrong.
+Let&amp;#8217;s fix that.&lt;/p&gt;
+&lt;/div&gt;</content>
+  </entry>
+
+  <entry>
+    <title>Personal Backups</title>
+    <link href="/basics/intro-to-backups" />
+    <published>2018-05-04T00:00:00Z</published>
+    <updated>2018-05-04T00:00:00Z</updated>
+    <id>/basics/intro-to-backups</id>
+    <content type="html">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;People today store more of their valuable data digitally than ever before.
+For school, assignments, research papers, lab data, class notes, and many other important files are stored on computers.
+Many people have other personal files as well: photos, tax records, valuable messages, or other things.
+These files are too important to be stored only in one place.
+To protect them from disaster and catastrophe, backups are critical.&lt;/p&gt;
+&lt;/div&gt;</content>
+  </entry>
+
