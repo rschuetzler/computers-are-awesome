@@ -25,7 +25,7 @@ layout: null
 					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
 				{% endif %}
 				{% if post.excerpt %}
-					<description>{{ post.excerpt | xml_escape | remove: '<p>' | remove: '</p>' | remove: '<div class="paragraph">' | remove: '</div>' }}</description>
+					<description>{{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '<div class="paragraph">' | remove: '</div>' | xml_escape }}</description>
 				{% else %}
 					<description>{{ post.content | xml_escape }}</description>
 				{% endif %}
