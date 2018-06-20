@@ -20,13 +20,13 @@
 				<title>Passwords</title>
 				
 				
-					<description>
-Your passwords are bad.
+					<description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Your passwords are bad.
 But you&amp;#8217;re not alone.
 But don&amp;#8217;t feel too bad.
 Your passwords are bad because everything you&amp;#8217;ve been taught about passwords is probably wrong.
-Let&amp;#8217;s fix that.
-</description>
+Let&amp;#8217;s fix that.&lt;/p&gt;
+&lt;/div&gt;</description>
 				
 				<pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
 				<link>/basics/passwords</link>
@@ -37,13 +37,13 @@ Let&amp;#8217;s fix that.
 				<title>Personal Backups</title>
 				
 				
-					<description>
-People today store more of their valuable data digitally than ever before.
+					<description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;People today store more of their valuable data digitally than ever before.
 For school, assignments, research papers, lab data, class notes, and many other important files are stored on computers.
 Many people have other personal files as well: photos, tax records, valuable messages, or other things.
 These files are too important to be stored only in one place.
-To protect them from disaster and catastrophe, backups are critical.
-</description>
+To protect them from disaster and catastrophe, backups are critical.&lt;/p&gt;
+&lt;/div&gt;</description>
 				
 				<pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
 				<link>/basics/intro-to-backups</link>
