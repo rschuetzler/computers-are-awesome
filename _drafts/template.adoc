@@ -1,0 +1,10 @@
+= Page title
+Ryan Schuetzler <rschuetzler@unomaha.edu>
+v0.1, 2018-05-30
+:icons: font
+ifndef::bound[:imagesdir: ../images]
+:xrefstyle: short
+:page-date: 2018-05-11T00:00:00Z
+:authors: Ryan Schuetzler
+:tags: 
+:slug: 
