@@ -8,3 +8,17 @@ ifndef::bound[:imagesdir: ../images]
 :authors: Ryan Schuetzler
 :tags: 
 :slug: 
+
+Hook paragraph
+
+// more
+
+== What you will learn
+
+== Reflection Questions
+
+== Activities
+
+== References
+
+bibliography::[]
