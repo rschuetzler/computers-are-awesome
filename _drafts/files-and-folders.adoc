@@ -1,0 +1,43 @@
+= Files and Folders
+Ryan Schuetzler <rschuetzler@unomaha.edu>
+v0.1, 2018-06-25
+:icons: font
+ifndef::bound[:imagesdir: ../images]
+:xrefstyle: short
+:page-date: 2018-06-25T00:00:00Z
+:authors: Ryan Schuetzler
+:tags: basics;
+:slug: files-and-folders
+
+Just about everything on your computer is stored in a file.
+You've probably opened thousands of files: Word documents, spreadsheets, images, PDFs, music files, and more.
+But what even is a file?
+How does a computer read a file, or know what program to use to read a file?
+How does it know where a file is?
+
+== What you will learn
+
+* What a file is
+* Binary vs. plain text files
+* Different file formats
+* How to change a file extension
+
+== What is a file, and why should I care?
+* Storage
+* Archival - will you be able to open the file in 10 years? Do you need to?
+* 
+== How do computers read files?
+* Binary files - executables, image formats, audio formats
+* Plain text files - .txt, computer code, websites
+
+== Changing file extensions
+* Changing .docx to .zip
+* Change .txt to .bat, maybe?
+
+== Reflection Questions
+
+== Activities
+
+== References
+
+bibliography::[]
