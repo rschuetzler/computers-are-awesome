@@ -5,11 +5,12 @@ v0.1, 2018-05-02
 ifndef::bound[:imagesdir: ../images]
 :xrefstyle: short
 :page-layout: post
+:page-date: 2018-05-04T00:00:00Z
 :uri-asciidoctor: http://asciidoctor.org
 :tags: backup
 :slug: intro-to-backups
 :authors: Ryan Schuetzler
-:summary: Having a good backup strategy is critical to protecting yourself from disaster. This chapter talks about the importance of backups and how to create a backup plan.
+:summary: Having a good backup strategy is critical to protecting yourself from disaster. This section talks about the importance of backups and how to create a backup plan.
 
 People today store more of their valuable data digitally than ever before.
 For school, assignments, research papers, lab data, class notes, and many other important files are stored on computers.
