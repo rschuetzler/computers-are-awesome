@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'asciidoctor'
 gem 'asciidoctor-pdf'
 gem 'asciidoctor-bibtex'
-gem "jekyll", "~> 3.8.1"
+gem "jekyll", "~> 3.8.4"
 gem 'coderay'
 gem 'rake-jekyll', '~> 1.1.0'
 
